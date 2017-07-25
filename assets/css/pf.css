@@ -1,19 +1,20 @@
 
+		#sec_4{
+			border-bottom: 1px dashed;
+		}
 		.portfolio{
 			position:relative;
 			margin:0 auto;
 			padding-bottom:0;
 			list-style:none;
 			text-align:center;
-			border-bottom: 1px dashed;
+			
 			
 		}
 		
 		.portfolio .portfolio-item{
 			position:relative;
 			overflow:hidden;
-			margin:0!important;
-			padding:0!important;
 		}
 		.portfolio .portfolio-item img{
 			width:100%;
