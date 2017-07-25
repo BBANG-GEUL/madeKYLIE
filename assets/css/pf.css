@@ -6,7 +6,9 @@
 			list-style:none;
 			text-align:center;
 			border-bottom: 1px dashed;
+			
 		}
+		
 		.portfolio .portfolio-item{
 			position:relative;
 			overflow:hidden;
@@ -69,8 +71,9 @@
 			opacity:1;
 			filter:alpha(opacity=100);
 		}
-		.item-h1,.item-h2{
+		.item-wh{
 			height:auto!important;
+			
 		}
 		.grid-3 .portfolio-grid{
 			float:left;
@@ -103,6 +106,8 @@
 			background:#ccc;
 			}
 
+
+	
 
 
 
