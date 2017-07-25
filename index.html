@@ -1,0 +1,727 @@
+<!--
+// --==============================================================--
+// (C) COPYRIGHT 2017, Kylie
+//     All Right Reserved
+//
+//     Kylie.Choi
+//     Web Developer (Full stack)
+// ------------------------------------------------------------------
+// File Name	: index.html
+// Module Name	: index
+// Date		: 14/06/2017 
+// Author	: Kylie.Choi, Web Developer
+// ------------------------------------------------------------------
+// Purpose      : This is my web CV
+// Revision history
+// @
+// --==============================================================--
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="kylie's web cv">
+	<meta name="keywords" content="web cv, kylie, HTML, CSS">
+	<meta name="publisher" content="Kylie.Choi">
+		
+	
+	<link rel="icon" href="./img/icons/tt_logo.ico" type="image/x-icon">
+	<title> _ MADE Kylie </title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/pf.css">
+	
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans+Condensed:300" rel="stylesheet">
+	
+ 	<!--fontawesome-->
+    <script src="https://use.fontawesome.com/4ccc872698.js"></script>
+
+    <!-- jquery cdn -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+	<!-- fancy box -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+
+
+	<script type="text/javascript" src="./assets/js/change.js"></script>
+	<script type="text/javascript" src="./assets/js/action.js"></script>
+</head>
+<body>
+	<!-- warpped divs -->
+	<div class="container">
+		<div class="header">
+			<!-- adding margin -->
+			<div id="mrg"></div>
+			<!-- top made kylie logo image -->
+			<div class="top_logo">				
+				<img src="./img/logo.png" alt="logo image : made kylie">				
+			</div>
+			<!-- adding margin -->
+			<div id="mrg"></div>
+			<!-- top menu links -->
+			<div class="top_link">
+				<ul>
+					<li id="lst_1st"><a href="#sec_1">ABOUT ME & SKILLS</a></li>
+					<li id="lst_exp"><a href="#">EXPERIENCE</a></li>
+					<li id="lst_edu"><a href="#">EDUCATION</a></li>
+					<li><a href="#sec_4">PORTFOLIO</a></li>
+					<li><a href="#sec_5">CONTACT</a></li>
+				</ul>
+			</div>
+			<!-- sub menu links ( belong to top menu) -->
+			<div class="sub_link_exp">
+				<ul>
+					<li id="lst_1st"><a href="#exp_hw_title">Hardware</a></li>
+					<li><a href="#exp_sw_title">Software</a></li>
+				</ul>	
+			</div>
+			<div class="sub_link_edu">	
+				<ul>
+					<li id="lst_1st"><a href="#sec_3">NewZealand</a></li>
+					<li><a href="#sec_3">SouthKorea</a></li>
+				</ul>				
+			</div>
+			<!-- top sns links -->
+			<div class="sns_link">
+				<ul>
+					<a href="https://www.instagram.com/C__KYLIE/" target="_blank"> 
+						<img src="./img/icons/insta.jpg" alt="instagram icon from icon finder">
+					</a>
+					<a href="https://www.instagram.com/S__KYLIE/" target="_blank"> 
+						<img src="./img/icons/insta.jpg" alt="instagram icon from icon finder">
+					</a>
+					<!-- <a href="http://www.facebook.com" target="_blank"> 
+						<img src="./img/icons/facebook.jpg" alt="facebook icon from icon finder">
+					</a> -->
+					<a href="https://bbang-geul.github.io/webcv" tart="_blank"> 
+						<img src="./img/icons/github.jpg" alt="github icon from icon finder">
+					</a>
+					<!-- <a href="#"> 
+						<img src="./img/icons/evernote.jpg" alt="evernote icon from icon finder">
+					</a> -->
+					
+					<a href="mailto:kylie.c.8784@gmail.com?subject=I want to hire you" target="_blank">
+						<img src="./img/icons/email.jpg" alt="email icon from icon finder">
+					</a>
+					<a href="tel:64-021-143-6104"> 
+						<img src="./img/icons/call.jpg" alt="call icon from icon finder">
+						<a
+					</a>
+					
+				</ul>				
+			</div>
+			<!-- left show div -->
+			<div class="show_lft">
+				<img id="show_lft" src="./img/icons/btn1.png" alt="button1">
+			</div>
+			<!-- right show div -->	
+			<div class="show_rgt">
+				<img id="show_rgt" src="./img/icons/btn2.png" alt="button2">
+			</div>
+			<!-- go to top div -->	
+			<div class="show_top">
+				<a href="#"><img id="show_top" src="./img/icons/btn3.png" alt="button3"></a>
+			</div>
+		</div>
+			
+		<!-- left hide div -->
+		<div class="hide_lft">
+			<ul id="order_rgt">
+				<img src="./img/icons/btn1.png" alt="button1">
+			</ul>
+			<p id="cap">CONTACT</p>
+			<ul class="hl_ch_1">
+				<li><a href="#sec_5">MOBILE</a></li>
+				<li><a href="#sec_5">EMAIL</a></li>
+				<li><a href="#sec_5">ADDR</a></li>
+			</ul>
+			<p id="cap">EXPERIENCE</p>
+			<ul class="hl_ch_2">				
+				<li><a href="#exp_hw_title">HW</a></li>
+				<li><a href="#exp_sw_title">SW</a></li>
+				<li>...</li>
+			</ul>
+			<p id="cap">EDUCATION</p>
+			<ul class="hl_ch_3">
+				<li><a href="#sec_3">NewZealand</a></li>
+				<li><a href="#sec_3">Korea</a></li>
+			</ul>
+			<p id="cap">PORTFOLIO</p>
+			<ul class="hl_ch_4">
+				<li><a href="#sec_4">PS</a></li>
+				<li><a href="#sec_4">FL</a></li>
+				<li><a href="#sec_4">PR & AE</a></li>
+				<li><a href="#sec_4">WEB</a></li>
+				<li>...</li>
+			</ul>			
+		</div>
+			
+		<!-- right hide div -->
+		<div class="hide_rgt">
+			<ul>
+				<img src="./img/icons/btn2.png" alt="button2">
+			</ul>
+			<p id="cap">TODAY</p>
+			<ul>
+				<li id="gTime">
+				</li>
+			</ul>
+			
+			<ul>
+			<p id="cap">DOWNLOAD</p>	
+			<p id="sub"> Curriculum Vitae</p>			
+				<li>
+					<a href="./assets/documents/Kylie_Choi_Curriculum_Vitae_2017_en.pdf" target="_blank" download><img src="./img/icons/download_cd.png" alt="download Career Description"></a>
+					English
+				</li>
+				<li>
+					<a href="./assets/documents/Kylie_Choi_Curriculum_Vitae_2017_kor.pdf" target="_blank" download><img src="./img/icons/download_cv.png" alt="download Curriculum Vitae"></a>
+					Korean
+				</li>
+			</ul>
+		</div>
+	</div><!-- container div end -->
+
+
+		<!-- this is contents field -->
+		<!-- section 1 : about me / using instagram -->
+		<section id="sec_1">
+		<div id="mrg1"></div>
+			<div class="col-sm-2"></div>
+			<div class="about_lft col-sm-6">
+				<p id="as_1">Hello,</p>
+				<p id="as_2">I'm a CIS Engineer & Web Developer</p>
+				<p id="as_3">
+				I am here in New Zealand with a post-study visa ( expire date : NOV 2018 ) and I am looking for a job. I was CIS Senior Engineer 5 years. CIS ( CMOS Image Sensor ) is a part of camera at mobile. I designed hardware functions with RTL language ( verilog & HDL ).
+				</p>
+				<p id="as_2">New Challenge for ME</p>
+				<p id="as_3">
+				I challenge web development. Although I am taking the first step in the Web field, I believe that my experience as a hardware design engineer will help me become a web developer. In particular, understanding pramming languages ​​such as PHP and JAVA SCRIPT is fast. I am also prepared to work hard to meet the diversity and speed of web development.
+				</p>
+				<p id="as_2">A bit about ME</p>
+				<p id="as_3">
+				I like to communicate with people. So when I am in a meeting, the atmosphere becomes cheerful. And my hobby is cooking and scuba diving. I am very happy to make dishes for my friends or family and to have fun together.<br><br>
+				<a href="#cooking"> - Learn more about my Cooking</a><br>
+				<a href="#diving"> - Learn more about my Scuba Diving</a><br><br>
+				</p>
+			</div>
+			<div class="about_rgt col-sm-2">
+				<p id="ss_1">Skills</p>
+				<canvas id="myCanvas" width="250" height="1000"></canvas>
+
+
+			</div>
+		
+		<div class="clearfix"></div>
+		<div id="mrg2"></div>
+		</section>
+
+
+		<section>
+		<div id="mrg2"></div>
+			<div class="insta_title" id="cooking">instagram @C__KYLIE</div>
+			<div class="thumb">
+				<ul id="grid_thumb" style="margin-left:-2px;">
+					<li><a href="https://www.instagram.com/p/BTlcbD6Aq2XV_waiwVicGkq51rR_KFegjtFJgE0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/18252829_1493705293993518_344727033093292032_n.jpg" alt="instagram field 1"></a></li>
+					<li><a href="https://www.instagram.com/p/BTqAug8Ay1ogke5ZnhyRL4OO8SKMFb05nIU8iA0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c0.135.1080.1080/18162128_1284438474926038_4607035758551760896_n.jpg" alt="instagram field 2"></a></li>
+					<li><a href="https://www.instagram.com/p/BS5BmN0g_GPsQurbzUEv8RA5W_6dlv9C7ViQpE0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c145.0.790.790/17882357_445790519086632_9035381992618721280_n.jpg" alt="instagram field 3"></a></li>
+					<li><a href="https://www.instagram.com/p/BS4-zvIgDJZrry3qFuFsoNbzO73r3SEHjsxWKY0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c1.0.1077.1077/17932550_1398852256841311_4362921169045684224_n.jpg" alt="instagram field 4"></a></li>
+					<li><a href="https://www.instagram.com/p/BSuNBB7gbzxP6SRzpV-TqAuoIxm7duYl1lLdy80/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/17881259_640420832817704_2748869379717332992_n.jpg" alt="instagram field 5"></a></li>
+					
+					<li><a href="https://www.instagram.com/p/BSZ8mHygvGhHiUHxTiWdw_1oSPn3SFukpdq18Y0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c1.0.1078.1078/17596624_191395431365419_987183101815816192_n.jpg" alt="instagram field 6"></a></li>
+					<li><a href="https://www.instagram.com/p/BSIeAicgHyS1Mtaq40XsMbrzHI-xh6_dsdmMGA0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c1.0.1078.1078/17494070_1826879470910898_463807840348274688_n.jpg" alt="instagram field 7"></a></li>
+					<li><a href="https://www.instagram.com/p/BSLA7Z-AFAfEtNYtnaPT-eqMO4_vSLlRei4Y1U0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c1.0.1078.1078/17587115_345197149210535_1153547891227230208_n.jpg" alt="instagram field 8"></a></li>
+					<li><a href="https://www.instagram.com/p/BQxb7sxAqoXEGk3SHxFyt_1gk8PDQlW68VSIhQ0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/16790099_628160540703327_5210553585049272320_n.jpg" alt="instagram field 9"></a></li>
+					<li><a href="https://www.instagram.com/p/BP1Pw6mF6f00AK40Rl0Z--ShQow3-n-Q5SgtHs0/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c125.0.829.829/16230678_721302714713765_46685268010336256_n.jpg" alt="instagram field 10"></a></li>
+				</ul>			
+			</div>
+		<div id="mrg1"></div>
+		<div class="insta_title" id="diving">instagram @S__KYLIE</div>
+			<div class="thumb">
+				<ul id="grid_thumb" style="margin-left:-2px;">
+					<li><a href="https://www.instagram.com/p/BVhS7AWgJhX/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/e35/c236.0.607.607/19429415_513902792274109_8918345748710424576_n.jpg" alt="instagram field 1"></a></li>
+					<li><a href="https://www.instagram.com/p/BVhTb4_gAHM/" target="_blank"><img src="https://instagram.fakl3-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/19534195_143611659543976_5724609836931350528_n.jpg" alt="instagram field 2"></a></li>		
+					<li><a href="https://www.instagram.com/p/BVhSJv6AqY7/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/19534253_1974808439420873_7529090370106294272_n.jpg" alt="instagram field 3"></a></li>					
+					<li><a href="https://www.instagram.com/p/BVhR9nUAlx-/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/e35/c236.0.607.607/19437135_314391538987007_1672642225646862336_n.jpg" alt="instagram field 4"></a></li>
+					<li><a href="https://www.instagram.com/p/BVhSkERguQb/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/e35/c236.0.607.607/19425142_1965759253671168_930541150425579520_n.jpg" alt="instagram field 5"></a></li>
+					
+					<li><a href="https://www.instagram.com/p/BVhRfJvgVv1/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/19425489_1895286230723894_3785821780875149312_n.jpg" alt="instagram field 6"></a></li>
+					<li><a href="https://www.instagram.com/p/BVhRFpPAoJQ/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/e35/c221.0.638.638/19428948_1374403602596818_1079168901725552640_n.jpg" alt="instagram field 7"></a></li>
+					<li><a href="https://www.instagram.com/p/BVhQggjA9H8/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/19429411_1368119519903710_8119432439530520576_n.jpg" alt="instagram field 8"></a></li>
+					<li><a href="https://www.instagram.com/p/BVhQMRnAHqa/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c135.0.810.810/19425317_1490889220991575_6800694436742299648_n.jpg" alt="instagram field 9"></a></li>
+					<li><a href="https://www.instagram.com/p/BVhN9QOg16E/" target="_blank"><img src="https://instagram.fakl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c0.135.1080.1080/19424978_1933094986975814_5716477960601468928_n.jpg" alt="instagram field 10"></a></li>
+				</ul>			
+			</div>
+		<div id="mrg"></div>
+		</section>
+
+
+		<!-- section 2 :  experience -->
+		<section id="sec_2">
+		<div id="mrg2"></div>
+		<!-- 1. hardware experience -->
+			<table class="exp_conts" id="exp_hw">
+				<p id="exp_hw_title">HardWare<p>				
+				<tr>
+					<td class="t_line_lft" id="tl_1">
+					<p id="exp_cap">2016 ~ 2015</p>
+					<img src="./img/icons/siliconfile.png" alt="Siliconfile logo image">
+					</td>
+					<td class="t_line_rgt" id="tr_1">
+					<p id="exp_cap">CIS Digital Design Part (for CMOS Image Sensor)
+					<br> 
+					___Senior Research Engineer
+					<p>
+					<p id="exp_cont">
+					(STUDY for OFFSET)<br> 
+						-	Offset measurement as Temperature, Gain, Power for suitable dark offset <br>
+					(8M CIS FSI) <br> 
+						-	BLC Digital design  <br> 
+					(Random data generator for reducing noise; fixed pattern) <br> 
+						-	Verilog simulation of CIS timing generator  <br> 
+						-	Static timing analysis using Prime time <br> 
+						-	FPGA module TEST <br> 
+					</p>
+					</td>				
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_2">
+					<p id="exp_cap">2014</p>
+					<img src="./img/icons/siliconfile.png" alt="Siliconfile logo image">
+					</td>
+					<td class="t_line_rgt" id="tr_2">
+					<p id="exp_cap">CIS Digital Design Part (for CMOS Image Sensor)
+					<br> 
+					___Senior Research Engineer
+					<p>
+					<p id="exp_cont">
+					(2M COMPACT CIS FSI) <br>
+						-	BLC Digital design  <br>
+						-	Verilog simulation of CIS timing generator  <br>
+						-	Static timing analysis using Prime time <br>
+						-	FPGA module TEST <br>
+					(13M CIS FSI) <br>
+						-	BLC Digital design  <br>
+						-	Verilog simulation of CIS timing generator  <br>
+						-	Static timing analysis using Prime time <br>
+						-	FPGA module TEST <br>
+					</p>
+					</td>				
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_3">
+					<p id="exp_cap">2013</p>
+					<img src="./img/icons/siliconfile.png" alt="Siliconfile logo image">
+					</td>
+					<td class="t_line_rgt" id="tr_3">
+					<p id="exp_cap">CIS Digital Design Part (for CMOS Image Sensor)
+					<br> 
+					__Juior Research Engineer
+					<p>
+					<p id="exp_cont">
+					(13M STACK CIS TEST) <br>
+						-	BLC Digital design <br>
+						-	Verilog simulation of CIS timing generator  <br>
+						-	Static timing analysis using Prime time <br>
+					(2M CIS FSI & BSI) <br>
+						-	BLC Digital design  <br>
+						-	Verilog simulation of CIS timing generator  <br>
+						-	Static timing analysis using Prime time <br>
+						-	FPGA module TEST <br>
+					</p>
+					</td>				
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_4">
+					<p id="exp_cap">2012</p>
+					<img src="./img/icons/siliconfile.png" alt="Siliconfile logo image">
+					</td>
+					<td class="t_line_rgt" id="tr_4">
+					<p id="exp_cap">CIS Digital Design Part (for CMOS Image Sensor)
+					<br> 
+					__Juior Research Engineer
+					<p>
+					<p id="exp_cont">
+					(3M CIS FSI) <br>
+						-	Verilog simulation of CIS timing generator <br>
+						-	Static timing analysis using Prime time <br>
+					</p>
+					</td>				
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_5">
+					<p id="exp_cap">2012</p>
+					<img src="./img/icons/marulsi.png" alt="maru LSI logo image">
+					</td>
+					<td class="t_line_rgt" id="tr_5">
+					<p id="exp_cap">CIS Digital Design Part (for CMOS Image Sensor)
+					<br> 
+					_Research Engineer
+					<p>
+					<p id="exp_cont">
+						-	Verilog design & simulation of timing generator: X_RAY, ENCODER <br>
+						-	64-bit 3-wire Serial interface module <br>
+						-	Clock divider module (1/12, 1/24, 1/48, 1/96) <br>
+						-	LCC & CLCC & QFN Package in Board TEST & Debugging  <br>
+					</p>
+					</td>				
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_6">
+					<p id="exp_cap">2011</p>
+					<img src="./img/icons/marulsi.png" alt="maru LSI logo image">
+					</td>
+					<td class="t_line_rgt" id="tr_6">
+					<p id="exp_cap">CIS Digital Design Part (for CMOS Image Sensor)
+					<br> 
+					_Research Engineer
+					<p>
+					<p id="exp_cont">
+						-	FPGA module TEST <br>
+						-	Verilog design & simulation of CIS timing generator: SVGA(WDR), SXGA(VISP,WDR(2)) <br>
+						-	Synthesis using Design-Compiler & Timing simulation <br>
+						-	Static timing analysis using Prime time <br>
+						-	Verilog design & simulation of CIS timing generator: VGA(VISP,WDR) <br>
+						-	32-bit 3-wire Serial interface module <br>
+						-	Clock divider module (1/2, 1/4, 1/8, 1/16) <br>
+						-	LCC Package in Board TEST & Debugging  <br>
+	
+					</p>
+					</td>				
+				</tr>				
+			</table>
+			<div id="mrg2"></div>
+			<!-- 2. software training -->
+			<table class="exp_conts" id="exp_sw">
+				<p id="exp_sw_title">SoftWare<p>				
+				<tr>
+					<td class="t_line_lft" id="tl_1">
+					<p id="exp_cap">2017</p>
+					</td>
+					<td class="t_line_rgt" id="tr_1">
+					<p id="exp_cap">Web Developer
+					<br> 
+					_Junior
+					<p>
+					<p id="exp_cont">
+					
+					</p>
+					</td>				
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_2">
+					<p id="exp_cap">2017</p>
+					</td>
+					<td class="t_line_rgt" id="tr_2">
+					<p id="exp_cap">Web Developer
+					<br> 
+					_Junior
+					<p>
+					<p id="exp_cont">
+					- made Web application
+					</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_3">
+					<p id="exp_cap">2017</p>
+					</td>
+					<td class="t_line_rgt" id="tr_3">
+					<p id="exp_cap">Web Developer
+					<br> 
+					_Junior
+					<p>
+					<p id="exp_cont">
+					- made Web application
+					</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_4">
+					<p id="exp_cap">2017</p>
+					</td>
+					<td class="t_line_rgt" id="tr_4">
+					<p id="exp_cap">Web Developer
+					<br> 
+					_Junior
+					<p>
+					<p id="exp_cont">
+					- made Web application
+					</p>
+					</td>	
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_5">
+					<p id="exp_cap">2017</p>
+					</td>
+					<td class="t_line_rgt" id="tr_5">
+					<p id="exp_cap">Web Developer
+					<br> 
+					_Junior
+					<p>
+					<p id="exp_cont">
+					- made Web application
+					</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="t_line_lft" id="tl_6">
+					<p id="exp_cap">2017</p>					
+					</td>
+					<td class="t_line_rgt" id="tr_6">
+					<p id="exp_cap">Web Developer
+					<br> 
+					_Junior
+					<p>
+					<p id="exp_cont">
+					- made Web application
+					</p>
+					</td>
+				</tr>				
+			</table>
+			<div id="mrg2"></div>
+		</section>
+
+
+		<!-- section 3 : education -->
+		<section id="sec_3">
+			<div id="mrg2"></div>
+			<!-- 1. New Zealand education -->
+			<div class="edu_img">
+				<img src="./img/icons/gr_cap_l.png" alt="graduation cap">
+			</div>			
+			<div class="edu">				
+				<div class="col-sm-1"></div>
+				<div class="nz col-sm-5 pull-left">
+					<ul>
+					<p id="ts_1">Tasman International Academies</p>						
+						<li> TIA Diploma in Information Technology - Multimedia - Level 7 2017.</li>						
+						<li>Levels 6-8, 290 Queen Street, Auckland, New Zealand</li>
+						<li id="edu_cer_tia">
+							Certificate of graduation
+							<img id="down_icon_1" src="./img/icons/down.png" alt="dropdown icon">
+							<img id="up_icon_1" src="./img/icons/up.png" alt="dropup icon">
+						</li>
+						<li class="lst_last" id="last_tia">
+							<a href="./assets/documents/tia_certification.pdf" target="_blank"><img src="./img/icons/gr_evd_s.png" alt="download certification"></a>							
+						</li>
+					</ul>					
+				</div>
+
+				<div class="clearfix"></div>
+				<div class="kr col-sm-6 pull-right">
+				<!-- 2. Korea education -->
+					<ul>
+					<p id="ts_1">KongJu National University</p>					
+						<li>2011. Bachelor of Electrical Engineering</li>
+						<li>56 Gongjudaehak-ro, Kongju-si, Chungcheongnam-do, Republic of KOREA</li>
+						<li id="edu_cer_kj">
+							Certificate of graduation
+							<img id="down_icon_2" src="./img/icons/down.png" alt="dropdown icon">
+							<img id="up_icon_2" src="./img/icons/up.png" alt="dropup icon">
+						</li>
+						<li class="lst_last" id="last_kj">
+							<a href="./assets/documents/kongju_certification.pdf" target="_blank"><img src="./img/icons/gr_evd_s.png" alt="download certification"></a>		
+						</li>						
+					</ul>
+				</div>
+				<div class="col-sm-1"></div>
+			</div>	
+			<div class="clearfix"></div>	
+			<div id="mrg2"></div>	
+		</section>
+
+
+		<!-- section 4 : portfolio -->
+		<section id="sec_4">
+		<div id="mrg1"></div>
+		<p id="exp_sw_title">PortFolio<p>
+		<div class="portfolio portfolio-gallery  isotope" style="position: relative; overflow: hidden; height: 1400px;">
+                <!-- 1 Row 1 Col :) wedding web portfolio -->
+                <div class="portfolio-grid item-w1 item-h2 cat3 isotope-item" style="width: 380px; height: 755px; position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);">
+                    <div class=" portfolio-item zoom-img">
+                        <a href="#" title="">
+                             <img src="./img/portfolio/ani.jpg" alt="">
+                        </a>
+                        <div class="portfolio-hover">
+                            <div class="title">Fl project</div>
+                            <span class="category">Animation</span>
+                            <div class="p-btn">
+                                <a href="./assets/documents/BibimbapStory.swf" class="popup-gallery" rel="gallery"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 Row 2 Col :) photoshop project -->
+                <div class="portfolio-grid item-w1 item-h2 cat2 isotope-item" style="width: 380px; height: 755px; position: absolute; left: 0px; top: 0px; transform: translate(380px, 0px);">
+                    <div class=" portfolio-item zoom-img">
+                        <a href="#" title="">
+                            <img src="./img/portfolio/ecard.jpg" alt="">
+                        </a>
+                        <div class="portfolio-hover">
+                            <div class="title">Ps project 1</div>
+                            <span class="category">Design</span>
+                            <div class="p-btn">
+                                <a href="./img/portfolio/ecard.jpg" class="popup-gallery" rel="gallery"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- 1to4 Row 3 Col :) wedding web portfolio -->
+                <div class="portfolio-grid item-w1 item-h2 cat2 isotope-item" style="width: 380px; height: 755px; position: absolute; left: 0px; top: 0px; transform: translate(760px, 0px);">
+                    <div class=" portfolio-item zoom-img">
+                        <a href="#" title="">
+                            <img src="./img/portfolio/wedding.jpg" alt="">
+                        </a>
+
+                        <div class="portfolio-hover">
+                            <div class="title">Wedding Invitation</div>
+                            <span class="category">Design & Develop</span>
+
+                            <div class="p-btn">
+                                <a href="https://bbang-geul.github.io/TIA/WEDDING/index.html" target="_blank"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 Row 4 Col :) kidsary web app -->
+                <div class="portfolio-grid item-w1 item-h2 cat2 isotope-item" style="width: 380px; height: 755px; position: absolute; left: 0px; top: 0px; transform: translate(1140px, 0px);">
+                    <div class=" portfolio-item zoom-img">
+                        <a href="#" title="">
+                            <img src="./img/portfolio/kidsary.jpg" alt="">
+                        </a>
+
+                        <div class="portfolio-hover">
+                            <div class="title">KIDS+ARY</div>
+                            <span class="category">Design & Develop</span>
+
+                            <div class="p-btn">
+                                <a href="https://bbang-geul.github.io/TIA/KIDSARY/enterance.html" target="_blank"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 Row 1&2 Col :) photoshop project -->
+                <div class="portfolio-grid item-w2 item-h2 cat1 isotope-item" style="width: 760px; height: 755px; position: absolute; left: 0px; top: 0px; transform: translate(0px, 380px);">
+                    <div class=" portfolio-item zoom-img">
+                        <a href="#" title="">
+                            <img src="./img/portfolio/app.jpg" alt="">
+                        </a>
+                        <div class="portfolio-hover">
+                            <div class="title">Ps project 2</div>
+                            <span class="category">Design</span>
+                            <div class="p-btn">
+                                <a href="./img/portfolio/app.jpg" class="popup-gallery" rel="gallery"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 Row 4 Col :)  music video -->
+                <div class="portfolio-grid item-w1 item-h2 cat1 isotope-item" style="width: 380px; height: 755px; position: absolute; left: 0px; top: 0px; transform: translate(1140px, 380px);">
+                    <div class=" portfolio-item zoom-img">
+                        <a href="#" title="">
+                            <video width="380" height="380">
+  								<source src="./assets/documents/kylie_TheLazySong.mp4" type="video/mp4">
+							</video>
+                        </a>
+                        <div class="portfolio-hover">
+                            <div class="title">Pr project</div>
+                            <span class="category">MusicVideo</span>
+
+                            <div class="p-btn">
+                           		<a href="./assets/documents/kylie_TheLazySong.mp4" class="popup-gallery fancybox.iframe" rel="gallery"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="portfolio-grid item-w1 item-h2 cat1 isotope-item" style="width: 380px; height: 755px; position: absolute; left: 0px; top: 0px; transform: translate(1140px, 760px);">
+                    <div class=" portfolio-item zoom-img">
+                        <a href="#" title="">
+                            <img src="./img/portfolio/magazine.jpg" alt="">
+                        </a>
+                        <div class="portfolio-hover">
+                            <div class="title">Ps project 3</div>
+                            <span class="category">Design</span>
+                            <div class="p-btn">
+                                <a href="./img/portfolio/magazine.jpg" class="popup-gallery" rel="gallery"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+		</section>
+
+
+		<!-- section 5 : contact -->
+		<section id="sec_5">
+		<div id="mrg2"></div>
+			<div class="contact">			
+				<div class="cnt_name col-sm-3">				
+					<img src="./img/icons/logo.png" alt="web cv logo">
+					I'm Kylie
+				</div>
+				<div class="cnt_conts col-sm-8 pull-left">
+					<p id="ts_1">
+					
+						Thank you for visitig my web CV. Please contact me at any time at the following Email or number if you want to take advantages of my ability. Your contact would be appreciated. Have a great day.
+					</p>
+					<p id="ts_2">
+						저의 WEB CV 검토해 주셔서 감사합니다. 저의 재능이 필요하시다면 언제든지 기재된 연락처로 연락주시면 됩니다. 당신의 연락을 기다리겠습니다. 항상 웃음 가득한  하루 되세요 ^^
+
+					</p>
+					<br>
+					<p id="ts_3">					
+						Email : kylie.c.8784@gmail.com <br>					
+						Mobile : +64 021- 143-6104	<br>				
+						Addr : 63A Girrahween Dr. Totaravale, Auckland, Newzealand<br>
+					</p>
+				</div>				
+			</div>				
+			<div class="clearfix"></div>	
+			<div id="mrg2"></div>		
+		</section>
+
+
+		<!-- footer section -->
+		<footer>
+			<!-- bottom menu links -->
+			<div class="bot_link">
+			<br><br><br>
+				<ul>
+					<li id="lst_1st_2"><a href="#">HOME</a></li>
+					<li><a href="#sec_2">EXPERIENCE</a></li>
+					<li><a href="#sec_3">EDUCATION</a></li>
+					<li><a href="#sec_4">PORTFOLIO</a></li>
+					<li><a href="#sec_5">CONTACT</a></li>
+			<br><br>
+					
+				</ul>
+			<div class="bot_img">
+				<img src="./img/logo.png" alt="logo image : made kylie">
+				<p>Copyright 2017. @Kylie.C </p>
+			</div>
+			</div>
+		</footer>
+	
+</body>
+<script>
+	$(change.init);
+	$(action.init);
+	// $(scrollspy.init);
+</script>
+
+</html>

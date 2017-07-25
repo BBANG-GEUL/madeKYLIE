@@ -1,0 +1,401 @@
+*{padding:0;margin:0;
+	font-family: 'Muli',sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #000;
+    text-decoration:none;
+}
+/* visited link */
+a:visited {
+    color: #000;
+    
+}
+/* mouse over link */
+a:hover {
+    color: #ccc;
+    text-decoration:none;
+}
+/* selected link */
+a:active {
+    color: #ccc;
+    
+}
+
+/*common*/
+#mrg{
+	margin-top:45px;
+}
+#mrg1{
+	margin-top:100px;
+}
+#mrg2{
+	margin-top:200px;
+}
+
+
+.container .header .top_link, .bot_link {
+	position: relative;
+    width: 600px;
+    margin: 10px auto 5px;
+    text-align: center;
+    font-size: 10px;
+}
+.bot_link {
+	margin: 0 auto 5px;
+}
+#lst_1st{
+	border-left: 1px solid #ccc;
+}
+
+.container .header .top_link > ul >li, .bot_link > ul > li{
+	display: inline-block;
+    border-right: 1px solid #ccc;
+    padding: 0 7px;
+}
+#lst_1st_2{
+	border-left: 1px solid #fff;
+}
+.bot_link > ul > li{
+    border-right: 1px solid #fff;
+}
+.bot_link > ul > li > a:hover{
+    color:#fff;
+}
+.container .header .sub_link_exp, .container .header .sub_link_edu{
+	position: relative;
+    width: 600px;
+    margin: 10px auto 45px;
+    text-align: center;
+    font-size: 10px;
+    display:none;
+}
+.container .header .sub_link_exp > ul >li, .container .header .sub_link_edu > ul >li{
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding: 0 7px;
+}
+.container .header .sub_link_exp > ul > li > a:link, .container .header .sub_link_exp  > ul > li > a:visited{
+    color: #898989;
+}
+.container .header .sub_link_edu > ul > li > a:link, .container .header .sub_link_edu  > ul > li > a:visited{
+    color: #898989;
+}
+
+.container .header .sns_link{
+	margin: 0 auto 20px;
+}
+.container .header .sns_link > ul{
+	text-align:center;
+}
+
+.container .header .top_logo{
+	width:18%;
+	margin: 0 auto;
+}
+.container .header .top_logo > img{
+	width:100%;
+}
+.container .header .show_lft{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+.container .header .show_rgt{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 100;
+}
+
+.container .header .show_top{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 200;
+}
+.container .hide_lft{
+	position: fixed;
+	top: 0px;
+	left: -250px;
+	height: 100%;
+	/*border: 15px solid #ccc;	*/
+	width: 250px;
+	display:block;
+	z-index:200;
+	background-color: #fff;
+	box-shadow: 5px 0 5px -2px #ccc;
+}
+#cap{
+	font-size:15px;
+	font-weight: 600;
+	padding:5px 20px;
+	border-top: 1px dashed;
+}
+#sub{
+	padding:5px 20px;
+	border-left: 2px solid #ccc;
+}
+#gTime{
+	font-size:14px;
+}
+.container .hide_lft > ul > li, .container .hide_rgt > ul > li{
+	list-style-type: none;
+	color:#ccc;
+	border-left: 2px solid #ccc;
+	margin: 7px 25px;
+    padding: 0 10px;
+    font-size:12px;
+}
+
+.container .hide_rgt > ul > li{
+	border-left:none;
+	}
+
+
+.container .hide_rgt{	
+	position: fixed;
+	top: 0px;
+	right: -250px;
+	height: 100%;
+	/*border: 15px solid #ccc;*/	
+	width: 250px;
+	/*display:none;*/
+	z-index:200;
+	background-color: #fff;
+	box-shadow: -2px 0 5px 0px #ccc;
+}
+
+/*section 1 style*/
+.about_lft > p, .about_rgt > p{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: justify;
+}
+.about_lft > p > a{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 500;
+}
+#ss_1{
+	font-size:46px;
+	font-weight: 900;
+	text-align: center;
+}
+#as_1{	
+	font-size:46px;
+	font-weight: 900;
+}
+#as_2{
+	font-size:30px;
+	color:#989898;
+	margin-top:5%
+}
+#as_3{
+	font-size:16px;
+}
+.about_rgt{
+	position: relative;
+	height:400px;
+}
+.about_rgt > img{
+	position: absolute;
+	bottom:0;
+}
+	
+
+.insta_title{
+	font-size:18px;
+	font-family: 'Rajdhani', sans-serif;
+	color:#898989;
+	text-align: center;	
+	font-weight: 600;
+}
+
+.thumb{
+	margin: 0 auto;
+    padding: 20px 14px 14px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;    
+}
+.thumb > ul > li{
+	list-style-type:none;
+	float:left;
+	width:20%;
+	padding:4px;
+}
+.thumb > ul > li > a > img{
+	max-width: 100%;
+    vertical-align: top;
+}
+
+
+/*section 2 => experience styling*/
+.exp_conts{
+	margin:0 auto;
+}
+.exp_conts .t_line_lft, .exp_conts .t_line_rgt{
+	font-family: 'Rajdhani', sans-serif;
+	padding: 20px 20px 20px;
+	font-weight: 600;
+}
+.exp_conts .t_line_lft{
+	text-align:right;
+}
+#exp_sw_title, #exp_hw_title{
+	font-size:36px;
+	font-family: 'Rajdhani', sans-serif;
+	padding-left:5%;
+	font-weight: 600;
+	color:#ccc;
+}
+#exp_cap{
+	font-size:30px;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+#tl_1, #tr_1{
+	color: #fcac49;
+}
+#tl_1{
+	border-top: 15px solid;
+}
+#tl_2, #tr_2{
+	color: #f57f63;
+}
+#tl_3, #tr_3{
+	color: #c27c7c;
+}
+#tl_4, #tr_4{
+	color: #9ebf4e;
+}
+#tl_5, #tr_5{
+	color: #40a8dd;
+}
+#tl_6, #tr_6{
+	color: #5ab6c1;
+}
+#tl_6{
+	border-bottom: 15px solid;
+}
+
+
+#tr_1{
+	border-left: 15px solid #fcac49;
+}
+#tr_2{
+	border-left: 15px solid #f57f63;
+}
+#tr_3{
+	border-left: 15px solid #c27c7c;
+}
+#tr_4{
+	border-left: 15px solid #9ebf4e;
+}
+#tr_5{
+	border-left: 15px solid #40a8dd;
+}
+#tr_6{
+	border-left: 15px solid #5ab6c1;
+}
+
+#exp_cont{
+	font-size:16px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 0;
+	color:#898989;
+}
+
+
+
+/*section 3 => education styling*/
+#sec_3{
+	border-top: 1px dashed;
+	border-bottom: 1px dashed;
+}
+.edu_img{
+	width:7%;
+	margin: 2% auto;
+}
+.edu_img > img{	
+	width:100%;
+}
+.edu .nz{
+	text-align:right;
+	margin: 7px 25px;
+}
+.edu .nz > ul > li{
+	list-style-type:none;
+	border-right: 2px solid #ccc;
+	margin: 7px 25px;
+    padding: 0 10px;
+    font-size:16px;
+}
+.edu .kr{
+	text-align:left;
+	margin: 7px 25px;
+}
+.edu .kr > ul > li{
+	list-style-type:none;
+	border-left: 2px solid #ccc;
+	margin: 7px 25px;
+    padding: 0 10px;
+    font-size:16px;s
+}
+.lst_last, #up_icon_1, #up_icon_2{
+	border: none;
+	display:none;
+}
+#edu_cer_tia, #edu_cer_kj{
+	cursor:pointer;
+	border:none;
+}
+
+
+
+/*section 4 => portfolio styling*/
+
+/*section 5 => cntact styling*/
+.contact .cnt_name{
+	font-size:50px;
+	text-align: right;	
+	font-family: 'Indie Flower', cursive;
+}
+.contact .cnt_name > img{
+	width:20%;
+}
+.contact .cnt_conts{	
+	text-align: justify;	
+}
+#ts_1{
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Rajdhani', sans-serif;
+	font-size:20px;
+}
+#ts_2{
+	font-size:14px;
+}
+#ts_3{
+	font-weight: 600;
+	font-family: 'Rajdhani', sans-serif;
+	font-size:16px;
+}
+
+
+/*footer styling*/
+footer{
+	height:150px;
+	background-color: #ccc;
+}
+.bot_img{
+	width: 30%;
+	margin: 0 auto;
+}
+.bot_img > img{
+	width:100%;
+}
