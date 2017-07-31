@@ -234,6 +234,11 @@ a:active {
     vertical-align: top;
 }
 
+.thumb > ul > li > a > iframe{
+	max-width: 100%;
+    vertical-align: top;
+}
+
 
 /*section 2 => experience styling*/
 .exp_conts{
