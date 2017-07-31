@@ -28,13 +28,13 @@ a:active {
 }
 
 /*common*/
-#mrg{
+.mrg{
 	margin-top:45px;
 }
-#mrg1{
+.mrg1{
 	margin-top:100px;
 }
-#mrg2{
+.mrg2{
 	margin-top:200px;
 }
 
@@ -49,7 +49,7 @@ a:active {
 .bot_link {
 	margin: 0 auto 5px;
 }
-#lst_1st{
+#lst_1st_as, #lst_1st_exp, #lst_1st_edu{
 	border-left: 1px solid #ccc;
 }
 
