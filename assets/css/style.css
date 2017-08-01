@@ -56,8 +56,9 @@ a:active {
 .container .header .top_link > ul >li, .bot_link > ul > li{
 	display: inline-block;
     border-right: 1px solid #ccc;
-    padding: 0 7px;
+   padding: 0 7px; 
 }
+
 #lst_1st_2{
 	border-left: 1px solid #fff;
 }
@@ -209,7 +210,19 @@ a:active {
 	position: absolute;
 	bottom:0;
 }
-	
+
+@media screen and (max-width: 480px) {
+	#ss_1 {font-size:28px;}
+    .as_1 {font-size:28px;}
+    .as_2 {font-size:18px;}
+    .as_3 {font-size:8px;}
+}	
+@media screen and (max-width: 640px) {
+	#ss_1 {font-size:30px;}
+    .as_1 {font-size:30px;}
+    .as_2 {font-size:20px;}
+    .as_3 {font-size:10px;}
+}
 
 .insta_title{
 	font-size:18px;
@@ -336,7 +349,7 @@ a:active {
 	text-align:right;
 	margin: 7px 25px;
 }
-.edu .nz > ul > li, .edu .kr > ul > li{
+.edu .nz > ul > li{
 	list-style-type:none;
 	border-right: 2px solid #ccc;
 	margin: 7px 25px;
@@ -347,13 +360,13 @@ a:active {
 	text-align:left;
 	margin: 7px 25px;
 }
-/*.edu .kr > ul > li{
+.edu .kr > ul > li{
 	list-style-type:none;
 	border-left: 2px solid #ccc;
 	margin: 7px 25px;
     padding: 0 10px;
     font-size:16px;s
-}*/
+}
 .lst_last, #up_icon_1, #up_icon_2{
 	border: none;
 	display:none;
@@ -372,6 +385,7 @@ a:active {
 	font-size:50px;
 	text-align: right;	
 	font-family: 'Indie Flower', cursive;
+	/*font-family: 'Rajdhani', sans-serif;*/
 }
 .contact .cnt_name > img{
 	width:20%;
